@@ -1,21 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="te">
 <head>
 <meta charset="UTF-8">
-<meta name="description" content="Stock market education channel – for educational purposes only.">
+<meta name="description" content="స్టాక్ మార్కెట్ విద్యా ఛానెల్ – కేవలం విద్యా ప్రయోజనం కోసం.">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Zero to Hero™ – Daily Market Updates</title>
+<title>Trade With Munaafa₹ – రోజువారీ మార్కెట్ అప్‌డేట్స్</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;600;700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;600;700&family=Poppins:wght@400;500;600&family=Noto+Sans+Telugu:wght@400;500;600;700&display=swap" rel="stylesheet">
 
 
 <style>
 *{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
 html{-webkit-text-size-adjust:100%}
 body{
-  background:radial-gradient(circle at 50% 0%,#14161c 0%,#050506 60%,#000 100%);
-  color:#fff;font-family:'Poppins',sans-serif;
+  background:linear-gradient(160deg,#04302b 0%,#0a5c4a 55%,#0f7a5f 100%);
+  color:#12302a;font-family:'Poppins','Noto Sans Telugu',sans-serif;
   display:flex;justify-content:center;align-items:center;
   min-height:100vh;min-height:100dvh;
   padding:max(14px,env(safe-area-inset-top)) max(12px,env(safe-area-inset-right)) max(14px,env(safe-area-inset-bottom)) max(12px,env(safe-area-inset-left));
@@ -23,60 +23,63 @@ body{
 }
 .card{
   width:100%;max-width:440px;
-  background:#0c0c0e;
-  border:1px solid rgba(255,215,0,.35);
+  background:#ffffff;
   border-radius:clamp(24px,7vw,34px);
-  padding:clamp(28px,8vw,42px) clamp(16px,5vw,22px) clamp(24px,7vw,34px);
+  padding:clamp(28px,8vw,40px) clamp(16px,5vw,22px) clamp(22px,6vw,30px);
   text-align:center;
-  box-shadow:0 0 40px rgba(0,0,0,.8);
+  box-shadow:0 20px 50px rgba(0,0,0,.35);
+  border-top:6px solid #22c55e;
 }
 .logo{
   width:clamp(105px,34vw,138px);height:clamp(105px,34vw,138px);border-radius:50%;
-  border:4px solid #ffd400;background:#fff;
-  box-shadow:0 0 35px rgba(255,212,0,.55);
-  margin:0 auto clamp(22px,7vw,34px);overflow:hidden;
+  border:4px solid #22c55e;background:#fff;
+  box-shadow:0 8px 26px rgba(34,197,94,.45);
+  margin:0 auto clamp(20px,6vw,28px);overflow:hidden;
 }
 .logo img{width:100%;height:100%;object-fit:cover;display:block}
 h1{
-  font-family:'Rajdhani',sans-serif;font-weight:700;
-  font-size:clamp(23px,7.4vw,30px);letter-spacing:1.5px;color:#ffd400;margin-bottom:10px;
+  font-family:'Rajdhani','Noto Sans Telugu',sans-serif;font-weight:700;
+  font-size:clamp(23px,7.4vw,30px);letter-spacing:1px;color:#0a5c4a;margin-bottom:10px;
   line-height:1.2;
 }
 h2{
-  font-family:'Rajdhani',sans-serif;font-weight:700;
-  font-size:clamp(18px,5.8vw,24px);letter-spacing:.5px;margin-bottom:14px;line-height:1.25;
+  font-family:'Rajdhani','Noto Sans Telugu',sans-serif;font-weight:700;
+  font-size:clamp(18px,5.8vw,24px);color:#12302a;margin-bottom:12px;line-height:1.3;
 }
 .sub{
-  font-family:'Rajdhani',sans-serif;font-weight:500;
-  font-size:clamp(15px,4.8vw,20px);letter-spacing:.5px;color:#e8e8e8;
-  margin-bottom:clamp(22px,7vw,34px);line-height:1.3;
+  font-family:'Rajdhani','Noto Sans Telugu',sans-serif;font-weight:600;
+  font-size:clamp(15px,4.8vw,20px);letter-spacing:.5px;color:#4b6159;
+  margin-bottom:clamp(20px,6vw,28px);line-height:1.3;
 }
 .btn{
   display:flex;align-items:center;justify-content:center;gap:8px;
   min-height:58px;text-decoration:none;color:#fff;
-  font-family:'Rajdhani',sans-serif;font-weight:700;font-size:clamp(18px,5.6vw,23px);
+  font-family:'Rajdhani','Noto Sans Telugu',sans-serif;font-weight:700;font-size:clamp(18px,5.6vw,23px);
   padding:14px 12px;border-radius:40px;
-  background:linear-gradient(90deg,#00bfff,#0066cc);
-  box-shadow:0 0 30px rgba(0,150,255,.55);
-  margin:0 0 clamp(22px,7vw,30px);
+  background:linear-gradient(90deg,#22c55e,#15803d);
+  box-shadow:0 10px 24px rgba(21,128,61,.45);
+  margin:0 0 clamp(20px,6vw,26px);
   animation:pulse 2s infinite;
 }
 .btn:active{transform:scale(.97)}
 @keyframes pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.03)}}
 @media(prefers-reduced-motion:reduce){.btn{animation:none}}
 .trust{
-  margin:0 0 clamp(22px,7vw,30px);background:#f4f6fa;border-radius:14px;
-  padding:11px 8px;color:#d4001a;line-height:1.3;
-  font-family:'Rajdhani',sans-serif;font-weight:700;font-size:clamp(15px,4.8vw,19px);
+  margin:0 0 clamp(20px,6vw,26px);background:#e8f8ee;border:1px solid #b7e8c8;border-radius:14px;
+  padding:11px 8px;color:#0a5c4a;line-height:1.3;
+  font-family:'Rajdhani','Noto Sans Telugu',sans-serif;font-weight:700;font-size:clamp(15px,4.8vw,19px);
 }
-.points{list-style:none;margin-bottom:22px}
-.points li{font-size:clamp(14px,4.4vw,17px);margin-bottom:14px;line-height:1.4}
-.risk{font-size:clamp(12px,3.6vw,14px);color:#b5b5b5;margin-bottom:20px;line-height:1.4}
+.points{list-style:none;margin-bottom:20px;text-align:left;padding:0 6px}
+.points li{font-size:clamp(14px,4.4vw,16px);margin-bottom:12px;line-height:1.45;color:#1f3d35}
+.risk{font-size:clamp(12px,3.6vw,14px);color:#8a5a00;background:#fff6dd;border-radius:10px;padding:9px 10px;margin-bottom:18px;line-height:1.4}
 .disc{
-  background:#1c1d20;border:1px solid #2e2f33;border-radius:14px;
-  padding:12px 14px;font-size:11px;line-height:1.6;color:#a8a8a8;text-align:left;
+  background:#f3f6f5;border:1px solid #dbe5e1;border-radius:14px;
+  padding:12px 14px;font-size:11px;line-height:1.6;color:#5c6b66;text-align:left;
 }
+.promo{margin-top:16px;font-size:12px;color:#6f7f79}
+.promo a{color:#0a7a4f;text-decoration:none;font-weight:600}
 </style>
+
 <!-- Meta Pixel Code -->
 <script>
 !function(f,b,e,v,n,t,s)
@@ -87,38 +90,38 @@ n.queue=[];t=b.createElement(e);t.async=!0;
 t.src=v;s=b.getElementsByTagName(e)[0];
 s.parentNode.insertBefore(t,s)}(window, document,'script',
 'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '4250842485207353');
+fbq('init', '1336753001557672');
 fbq('track', 'PageView');
 </script>
 <noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=4250842485207353&ev=PageView&noscript=1"
+src="https://www.facebook.com/tr?id=1336753001557672&ev=PageView&noscript=1"
 /></noscript>
 <!-- End Meta Pixel Code -->
-
 </head>
 <body>
 <div class="card">
-  <div class="logo"><img src="https://iili.io/oK9t6gf.jpg" alt="Zero to Hero"></div>
+  <div class="logo"><img src="https://iili.io/oKF3Xj9.jpg" alt="Trade With Munaafa"></div>
 
-  <h1>📚 ZERO TO HERO™ 📚</h1>
-  <h2>📊 DAILY MARKET UPDATES 📊</h2>
-  <p class="sub">STOCK MARKET EDUCATION ▪ NIFTY ▪ BANKNIFTY</p>
+  <h1>📚 TRADE WITH MUNAAFA₹ 📚</h1>
+  <h2>📊 రోజువారీ మార్కెట్ అప్‌డేట్స్ 📊</h2>
+  <p class="sub">స్టాక్ మార్కెట్ విద్య ▪ NIFTY ▪ BANKNIFTY</p>
 
-  <a class="btn" href="https://telegram.me/+4Ijw87uSgXIwOGRl" target="_blank" rel="noopener">🚀 Join Free Telegram Channel</a>
+  <a class="btn" href="https://t.me/+CZj1PNKgN6I0ZTM1" target="_blank" rel="noopener">🚀 Join Free Telegram Channel</a>
 
-  <div class="trust">🇮🇳 Stock Market Education Channel</div>
+  <div class="trust">🇮🇳 స్టాక్ మార్కెట్ విద్యా ఛానెల్</div>
 
   <ul class="points">
-    <li>✔ Learn About Stop Loss &amp; Risk Management</li>
-    <li>✔ Daily Market Updates Free</li>
-    <li>✔ All Information for Educational Purpose Only</li>
+    <li>✔ స్టాప్ లాస్ &amp; రిస్క్ మేనేజ్‌మెంట్ గురించి నేర్చుకోండి</li>
+    <li>✔ రోజువారీ మార్కెట్ అప్‌డేట్స్ ఉచితం</li>
+    <li>✔ అన్ని వివరాలు కేవలం విద్యా ప్రయోజనం కోసమే</li>
   </ul>
 
-  <p class="risk">⚠️ Market Investments are subject to Market risks</p>
+  <p class="risk">⚠️ మార్కెట్ పెట్టుబడులు మార్కెట్ రిస్కులకు లోబడి ఉంటాయి</p>
 
   <div class="disc">
-    Disclaimer: Content shared on this channel is for educational and informational purposes only. It is not investment advice or a recommendation to buy or sell any stock or option. No profits are guaranteed. Trading in the stock market involves risk of loss. Please consult a SEBI registered advisor before investing. Past performance is not indicative of future results.
+    నిరాకరణ: ఈ ఛానెల్‌లో షేర్ చేసే కంటెంట్ కేవలం విద్యా మరియు సమాచార ప్రయోజనాల కోసమే. ఇది పెట్టుబడి సలహా లేదా ఏదైనా షేర్/ఆప్షన్ కొనుగోలు లేదా అమ్మకానికి సిఫార్సు కాదు. లాభాలకు ఎలాంటి హామీ ఇవ్వబడదు. స్టాక్ మార్కెట్‌లో నష్టాలు వచ్చే అవకాశం ఉంది. పెట్టుబడి పెట్టే ముందు SEBI రిజిస్టర్డ్ సలహాదారుని సంప్రదించండి. గత పనితీరు భవిష్యత్ ఫలితాలకు హామీ కాదు.
   </div>
+  <p class="promo">Promoted By <a href="https://t.me/+3XoqJNLxYHswNTc1" target="_blank" rel="noopener">AD BUILD AGENCY</a></p>
 </div>
 </body>
 </html>
